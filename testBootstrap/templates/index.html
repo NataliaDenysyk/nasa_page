@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+{% load static %}
+{% load thumbnail %}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Nasa</title>
+    <link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&amp;display=swap">
+    <link rel="stylesheet" href="../static/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../static/assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="../static/assets/css/styles.css">
+    <link rel="stylesheet" href="../static/assets/css/Team-Grid.css">
+    {% if sliders %}
+    <link rel="stylesheet" type="text/css" href="../static/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/slick/slick-theme.css"/>
+    {% endif %}
+</head>
+
+<body style="font-family: Montserrat, sans-serif;max-width: 1440px;">
+<section class="text-break text-center">
+    <nav class="navbar navbar-expand-md bg-dark align-content-center py-3 nasa-navbar" data-bs-theme="dark">
+        <div class="container">
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#"
+                    style="width: 30px;height: 30px;border-style: none;padding-top: 0px;padding-right: 4px;padding-bottom: 0px;padding-left: 0px;">
+                <span class="visually-hidden"
+                      style="width: 20px;height: 15px;font-size: 0px;">Toggle navigation</span><i
+                    class="icon ion-android-menu"
+                    style="color: #FF342B;width: 20px;height: 15px;font-size: 26px;line-height: 8px;"></i></button>
+            <a class="navbar-brand d-flex me-auto nasa-brand" href="#"><span class="brand-span"
+                                                                             style="background-image: url(&quot;../static/assets/img/name.png&quot;)"></span></a>
+            <div class="collapse navbar-collapse navco">
+                <ul class="navbar-nav nasa-navbar-nav-1">
+                    <li class="nav-item nasa-nav-item1" style="/*margin-left: 30px;*/"><a
+                            class="nav-link active text-uppercase" href="#"
+                            style="font-family: Montserrat, sans-serif;line-height: 19.5px;padding-top: 10px;letter-spacing: 0.1ex;">преимущества</a>
+                    </li>
+                    <li class="nav-item nasa-nav-item-2"><a class="nav-link active text-uppercase" href="#"
+                                                            style="height: 40px;width: 163.163px;line-height: 19.5px;padding-top: 10px;letter-spacing: 0.1ex;">ФОТОГРАФИИ</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn btn-primary ms-md-2 nasa-btn" role="button" href="#">ВХОД</a>
+        </div>
+    </nav>
+    <h1 class="display-4 nasa-hading">Космическое агентство</h1>
+    <div class="container conteiner-1">
+        <div class="row">
+            <div class="col con1prg">
+                <p>Национальное управление по аэронавтике и исследованию космического пространства — ведомство,
+                    относящееся к федеральному правительству США и подчиняющееся непосредственно президенту США.</p>
+            </div>
+        </div>
+        <div class="row con1row">
+            <div class="col-12 col-md-6 conrowcol1">
+                <div class="d-flex flex-row justify-content-around align-items-stretch flex-wrap div-imege-icon">
+                    <div data-bs-toggle="tooltip" data-bss-tooltip="" class="div-imege-icon-div"><img class="div-imege1"
+                                                                                                      src="../static/assets/img/item01_01.png">
+                        <h3 class="div-imege1-head"><strong>Спейс шаттлы —</strong><br><strong>пилотируемые
+                            корабли</strong></h3>
+                    </div>
+                    <div class="div-imege2-icon-div"><img class="div-imege2" src="../static/assets/img/item01_02.png">
+                        <h3 class="div-imege2-head"><strong>Лучшее телескопическое оборудование</strong></h3>
+                    </div>
+                    <div class="div-imege3-icon-div"><img src="../static/assets/img/item01_03.png">
+                        <h3 class="div-imege3-head"><strong>Целимся на Луну&nbsp;</strong><br><strong>и Марс</strong>
+                        </h3>
+                    </div>
+                    <div class="div-imege4-icon-div"><img class="div-imege4" src="../static/assets/img/item01_04.png">
+                        <h3 class="div-imege4-head"><strong>Золотая медаль&nbsp;</strong><br><strong>по научным
+                            исследованиям</strong></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 ms-lg-auto mc-auto img-fluid">
+                <img class="conrowcol2-image"
+                     src="../static/assets/img/sec1img.jpg"
+                ></div>
+        </div>
+    </div>
+</section>
+{% if sliders %}
+<section class="text-center section2">
+    <h2 class="text-center sec2head">Фотографии</h2>
+
+    <div class="m-auto sec2div slider-for">
+        {% for slider in sliders %}
+        <div>
+            <img class="slider-big-img-image" src="{{ slider.image.url }}">
+            <img class="slider-little-img-image" src="{{ slider.thumbnail|thumbnail_url:'my_preview_1' }}">
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="container justify-content-center container-fluid sec2cont">
+        <div class="row d-flex flex-grow-1 justify-content-evenly flex-nowrap row-cols-auto sec2controw slider-nav activ-min-img">
+            {% for slider in sliders %}
+            <div class="col sec2controwcol1">
+                <img class="img-fluid img-small"
+                     src="{{ slider.thumbnail|thumbnail_url:'my_preview_1' }}"></div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+<script src="../static/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/assets/js/bs-init.js"></script>
+{% if sliders %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../static/slick/slick.min.js"></script>
+<script type="text/javascript" src="../static/myscript.js"></script>
+{% endif %}
+</body>
+
+</html>

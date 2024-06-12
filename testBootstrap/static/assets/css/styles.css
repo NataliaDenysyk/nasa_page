@@ -1,0 +1,514 @@
+#navcol-1 {
+}
+
+.nasa-navbar {
+    height: 70px;
+    color: #0A121E;
+}
+
+@media (min-width: 992px) {
+    .nasa-navbar {
+        height: 90px;
+        color: #0A121E;
+        padding-right: 138px;
+        padding-left: 109px;
+    }
+}
+
+.nasa-btn {
+    background: #FF342B;
+    width: 88px;
+    height: 45px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    --bs-body-font-weight: 700;
+    font-weight: bold;
+    line-height: 19.5px;
+    padding-top: 12px;
+}
+
+.nasa-brand {
+    margin-left: 29px;
+}
+
+.brand-span {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 22.31px;
+    width: 80px;
+}
+
+@media (min-width: 992px) {
+    .brand-span {
+        width: 120px;
+        height: 44.47px;
+    }
+}
+
+.nasa-hading {
+    text-shadow: 0px 0px;
+    font-weight: bold;
+    padding-left: 0vw;
+    padding-top: 12.4vw;
+    line-height: 43.88px;
+    --bs-body-font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+@media (min-width: 992px) {
+    .nasa-hading {
+        padding-top: 89px;
+        font-size: 56px;
+        line-height: 68.26px;
+        letter-spacing: 1px;
+        padding-left: 0px;
+    }
+}
+
+
+.nasa-prg {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    max-width: 340px;
+}
+
+@media (min-width: 992px) {
+    .nasa-prg {
+        max-width: 751px;
+        margin-top: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-right: 345px;
+        letter-spacing: 0.3px;
+    }
+}
+
+.con1prg {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-left: 25px;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .con1prg {
+        font-size: 18px;
+        padding-left: 190px;
+        padding-right: 199px;
+        padding-top: 23px;
+        padding-bottom: 69px;
+    }
+}
+
+.div-imege-icon {
+    height: 100%;
+    line-height: 26px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 27px;
+}
+
+@media (min-width: 992px) {
+    .div-imege-icon {
+        padding-top: 55px;
+        width: 556px;
+    }
+}
+
+.div-imege-icon-div {
+    width: 41%;
+    height: 202px;
+}
+
+@media (min-width: 992px) {
+    .div-imege-icon-div {
+        width: 50%;
+        padding-right: 11px;
+    }
+}
+
+.div-imege1 {
+    margin-bottom: 2vw;
+}
+
+@media (min-width: 992px) {
+    .div-imege1 {
+        padding-bottom: 0px;
+        margin-bottom: 31px;
+        margin-top: -4px;
+        margin-left: -41px;
+    }
+}
+
+.div-imege1-head {
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+@media (min-width: 992px) {
+    .div-imege1-head {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+}
+
+.div-imege2-icon-div {
+    width: 41%;
+    margin-left: 12px;
+}
+
+@media (min-width: 992px) {
+    .div-imege2-icon-div {
+        width: 50%;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 9px;
+        margin-left: 0px;
+        margin-top: -2px;
+    }
+}
+
+.div-imege2 {
+    margin-bottom: 2vw;
+    font-size: 13px;
+}
+
+@media (min-width: 992px) {
+    .div-imege2 {
+        margin-bottom: 28px;
+    }
+}
+
+.div-imege2-head {
+    font-size: 14px;
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 12px;
+}
+
+@media (min-width: 992px) {
+    .div-imege2-head {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+.div-imege3-icon-div {
+    width: 41%;
+    height: 226px;
+    padding-left: 0px;
+    margin-left: -6px;
+    margin-top: -1px;
+}
+
+@media (min-width: 992px) {
+    .div-imege3-icon-div {
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding-top: 4px;
+        padding-right: 50px;
+    }
+}
+
+.div-imege3-head {
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+    .div-imege3-head {
+        margin-bottom: 0px;
+    }
+}
+
+.div-imege4-icon-div {
+    width: 41%;
+    height: 220px;
+    padding-left: 12px;
+    margin-top: -1px;
+    margin-left: -6px;
+}
+
+@media (min-width: 992px) {
+    .div-imege4-icon-div {
+        width: 50%;
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-top: 3px;
+        padding-right: 7px;
+    }
+}
+
+.div-imege4 {
+    margin-bottom: 2vw;
+}
+
+.div-imege4-head {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    line-height: 26px;
+    padding-top: 23px;
+}
+
+.conrowcol2 {
+    overflow: hidden;
+    padding-bottom: 45px;
+    padding-left: 0px;
+    width: 340px;
+}
+
+.sec2head {
+    font-weight: 700;
+    margin-bottom: 42px;
+    font-size: 30px;
+    line-height: 36px;
+    --bs-body-font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sec2div {
+    padding-top: 18px;
+    width: 340px;
+}
+
+@media (min-width: 992px) {
+    .sec2div {
+        width: 750px;
+        padding-right: 0px;
+    }
+}
+
+.img-small {
+    border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+    .img-small {
+        border-radius: 40px;
+    }
+}
+
+.slider-little-img-image {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    display: inherit !important;
+}
+
+@media (min-width: 992px) {
+    .slider-little-img-image {
+        display: none !important;
+    }
+}
+
+.slider-big-img-image {
+    display: none !important;
+}
+
+@media (min-width: 992px) {
+    .slider-big-img-image {
+        width: 750px;
+        overflow: hidden;
+        max-width: 100%;
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 40px;
+        display: inherit !important;
+    }
+}
+
+.sec2controw {
+    text-shadow: 0px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    /*overflow: hidden;*/
+}
+
+.sec2cont {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .sec2cont {
+        max-width: 1155px;
+        margin-left: 160px;
+        padding-top: 20px;
+        padding-left: 45px;
+    }
+}
+
+.sec2controwcol1 {
+    padding-right: 4px;
+    padding-left: 4px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.conteiner-1 {
+    min-width: 360px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.section2 {
+    background: #3C3C3C;
+    color: #FFFFFF;
+    --bs-body-font-weight: 700;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.navco {
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .nasa-nav-item-2 {
+        margin-left: 17px;
+    }
+}
+
+.nasa-navbar-nav-1 {
+    --bs-body-font-weight: 600;
+    margin-left: 291px;
+}
+
+@media (min-width: 992px) {
+    .conteiner-1 {
+        max-width: 1140px;
+        margin-left: 160px;
+        padding-bottom: 45px;
+    }
+}
+
+.conrowcol2-image {
+    width: 340px;
+    border-radius: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 96px;
+}
+
+@media (min-width: 768px) {
+    .conrowcol2-image {
+        width: 457px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-imege4-head {
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section2 {
+        padding-top: 90px;
+        margin-left: 0px;
+        padding-bottom: 346px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-imege4 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec2head {
+        font-size: 42px;
+        line-height: 52px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec2controw {
+        width: 1080px;
+        padding-left: 0px;
+    }
+}
+
+svg {
+    width: 75px;
+    height: 55px;
+    margin-top: 54px;
+}
+
+.col-arrow-left {
+    display: none;
+    padding-left: 0px;
+    width: 66px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .col-arrow-left {
+        display: inherit;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec2controwcol1 {
+        width: 170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .rounded-4 {
+        border-radius: var(--bs-border-radius-xl) !important;
+    }
+}
+
+.slider-nav .slick-current img {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.slick-prev {
+    left: -45px !important;
+}
+
+.slick-prev:before {
+    content: url(../img/arrow-l.svg) !important;
+}
+
+.slick-next:before {
+    content: url(../img/arrow-r.svg) !important;
+}
