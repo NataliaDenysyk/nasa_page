@@ -468,7 +468,6 @@
 svg {
     width: 75px;
     height: 55px;
-    margin-top: 54px;
 }
 
 .col-arrow-left {
@@ -511,4 +510,15 @@ svg {
 
 .slick-next:before {
     content: url(../img/arrow-r.svg) !important;
+}
+
+@media (max-width: 768px) {
+    .fancybox-button--close {
+        top: 10px;
+        right: 10px;
+        width: 44px;
+        height: 44px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 22px;
+    }
 }
