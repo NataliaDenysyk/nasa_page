@@ -18,6 +18,8 @@
     {% if sliders %}
     <link rel="stylesheet" type="text/css" href="../static/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../static/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+
     {% endif %}
 </head>
 
@@ -78,8 +80,8 @@
             </div>
             <div class="col-12 col-md-6 ms-lg-auto mc-auto img-fluid">
                 <img class="conrowcol2-image"
-                     src="../static/assets/img/sec1img.jpg"
-                ></div>
+                     src="../static/assets/img/sec1img.jpg">
+            </div>
         </div>
     </div>
 </section>
@@ -90,8 +92,10 @@
     <div class="m-auto sec2div slider-for">
         {% for slider in sliders %}
         <div>
-            <img class="slider-big-img-image" src="{{ slider.image.url }}">
-            <img class="slider-little-img-image" src="{{ slider.thumbnail|thumbnail_url:'my_preview_1' }}">
+            <a href={{ slider.image.url }} data-fancybox="gallery">
+                <img class="slider-big-img-image" src="{{ slider.image.url }}">
+                <img class="slider-little-img-image" src="{{ slider.thumbnail|thumbnail_url:'my_preview_1' }}">
+            </a>
         </div>
         {% endfor %}
     </div>
@@ -113,6 +117,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../static/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="../static/myscript.js"></script>
 {% endif %}
 </body>
