@@ -14,7 +14,7 @@ class SliderItemAdmin(SortableAdminMixin, admin.ModelAdmin):
     def display_image(self, obj):
         if obj.image:
             thumbnail_url = get_thumbnailer(obj.thumbnail)['admin_thumbnail'].url
-            return mark_safe('<img src="{}" width="50" height="50" />'.format(thumbnail_url))
+            return mark_safe('<img src="{}"/>'.format(thumbnail_url))
         else:
             return 'Изображение недоступно'
 

@@ -129,13 +129,13 @@
 }
 
 .div-imege-icon-div {
-    width: 41%;
+    width: 48%;
     height: 202px;
+    padding-left: 24px;
 }
 
 @media (min-width: 992px) {
     .div-imege-icon-div {
-        width: 50%;
         padding-right: 11px;
     }
 }
@@ -159,6 +159,7 @@
     line-height: 26px;
     text-align: center;
     padding-top: 12px;
+    padding-left: 2px;
 }
 
 @media (min-width: 992px) {
@@ -170,18 +171,16 @@
 }
 
 .div-imege2-icon-div {
-    width: 41%;
-    margin-left: 12px;
+    width: 52%;
 }
 
 @media (min-width: 992px) {
     .div-imege2-icon-div {
-        width: 50%;
+        width: 52%;
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 9px;
         margin-left: 0px;
-        margin-top: -2px;
     }
 }
 
@@ -212,21 +211,14 @@
 }
 
 .div-imege3-icon-div {
-    width: 41%;
+    width: 50%;
     height: 226px;
-    padding-left: 0px;
-    margin-left: -6px;
-    margin-top: -1px;
+    padding-left: 19px;
 }
 
 @media (min-width: 992px) {
     .div-imege3-icon-div {
-        width: 50%;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        margin-top: 0px;
-        padding-top: 4px;
-        padding-right: 50px;
+        margin-top: 11px;
     }
 }
 
@@ -235,17 +227,18 @@
     font-family: Montserrat;
     line-height: 26px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 22px;
 }
 
 @media (min-width: 992px) {
     .div-imege3-head {
-        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 45px;
     }
 }
 
 .div-imege4-icon-div {
-    width: 41%;
+    width: 51%;
     height: 220px;
     padding-left: 12px;
     margin-top: -1px;
@@ -254,10 +247,10 @@
 
 @media (min-width: 992px) {
     .div-imege4-icon-div {
-        width: 50%;
-        margin-top: 0px;
+        width: 46%;
+        margin-top: 3px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: -3px;
         padding-top: 3px;
         padding-right: 7px;
     }
@@ -431,8 +424,8 @@
 
 @media (min-width: 992px) {
     .div-imege4-head {
-        margin-left: 0px;
-        padding-top: 30px;
+        margin-left: 13px;
+        padding-top: 2px;
     }
 }
 
@@ -447,7 +440,7 @@
 
 @media (min-width: 992px) {
     .div-imege4 {
-        margin-bottom: 0px;
+        padding-left: 12px;
     }
 }
 

@@ -84,6 +84,7 @@ THUMBNAIL_ALIASES = {
         'admin_thumbnail': {'size': (60, 60), 'crop': 'smart'},
         'my_preview_1': {'size': (165, 165), 'crop': 'smart'},
         'my_preview_2': {'size': (80, 80), 'crop': 'smart'},
+        'big_image_m': {'size': (340, 340), 'crop': 'smart'},
     },
 }
 

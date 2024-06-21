@@ -59,22 +59,32 @@
         </div>
         <div class="row con1row">
             <div class="col-12 col-md-6 conrowcol1">
-                <div class="d-flex flex-row justify-content-around align-items-stretch flex-wrap div-imege-icon">
-                    <div data-bs-toggle="tooltip" data-bss-tooltip="" class="div-imege-icon-div"><img class="div-imege1"
-                                                                                                      src="../static/assets/img/item01_01.png">
-                        <h3 class="div-imege1-head"><strong>Спейс шаттлы —</strong><br><strong>пилотируемые
-                            корабли</strong></h3>
+                <div class="justify-content-around align-items-stretch flex-wrap div-imege-icon">
+                    <div class="row">
+
+                        <div data-bs-toggle="tooltip" data-bss-tooltip="" class="col-6 div-imege-icon-div">
+                            <img class="div-imege1" src="../static/assets/img/item01_01.png">
+                            <h3 class="div-imege1-head"><strong>Спейс шаттлы —</strong><br><strong>пилотируемые
+                                корабли</strong></h3>
+                        </div>
+                        <div class="col-6 div-imege2-icon-div">
+                            <img class="div-imege2" src="../static/assets/img/item01_02.png">
+                            <h3 class="div-imege2-head"><strong>Лучшее телескопическое оборудование</strong></h3>
+                        </div>
                     </div>
-                    <div class="div-imege2-icon-div"><img class="div-imege2" src="../static/assets/img/item01_02.png">
-                        <h3 class="div-imege2-head"><strong>Лучшее телескопическое оборудование</strong></h3>
-                    </div>
-                    <div class="div-imege3-icon-div"><img src="../static/assets/img/item01_03.png">
-                        <h3 class="div-imege3-head"><strong>Целимся на Луну&nbsp;</strong><br><strong>и Марс</strong>
-                        </h3>
-                    </div>
-                    <div class="div-imege4-icon-div"><img class="div-imege4" src="../static/assets/img/item01_04.png">
-                        <h3 class="div-imege4-head"><strong>Золотая медаль&nbsp;</strong><br><strong>по научным
-                            исследованиям</strong></h3>
+                    <div class="row">
+
+                        <div class="col-6 div-imege3-icon-div">
+                            <img class="div-imege1" src="../static/assets/img/item01_03.png">
+                            <h3 class="div-imege3-head"><strong>Целимся на Луну&nbsp;</strong><br><strong>и
+                                Марс</strong>
+                            </h3>
+                        </div>
+                        <div class="col-6 div-imege4-icon-div">
+                            <img class="div-imege4" src="../static/assets/img/item01_04.png">
+                            <h3 class="div-imege4-head"><strong>Золотая медаль&nbsp;</strong><br><strong>по научным
+                                исследованиям</strong></h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +104,7 @@
         <div>
             <a href={{ slider.image.url }} data-fancybox="gallery">
                 <img class="slider-big-img-image" src="{{ slider.image.url }}">
-                <img class="slider-little-img-image" src="{{ slider.thumbnail|thumbnail_url:'my_preview_1' }}">
+                <img class="slider-little-img-image" src="{{ slider.thumbnail|thumbnail_url:'big_image_m' }}">
             </a>
         </div>
         {% endfor %}
